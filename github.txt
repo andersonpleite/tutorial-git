@@ -1,0 +1,30 @@
+Git hub
+-Abra a pasta dp projeto clique com o botão direito -> git bash here
+-git init inicializa o projeto.
+-git status verifica os arquivos que ainda não foram incluídos no controle de versão.
+-git add . -> adiciona ao controle de versão.
+* Configuração da conta
+- git config --global user.mail "andersonpleite20222gmail.com"
+- git config --global user.name "andersonpleite"
+
+Definir o link do projeto no github
+git remote add origin https://github.com/andersonpleite/estrutura_de_dados (link do repositório)
+
+definir a branch
+git push --set-upstream origin master
+
+* git reflog -> verificar o histórico de versões.
+
+* git reset --hard "id"  ->voltar a uma versão do código.
+
+# Branch
+git branch -> verifica as branchs que estão disponíveis no projeto.
+
+git branch "nome da branch -> cria uma nova branch 
+git checkout "nome da branch" -> altera para branch a ser usada.
+
+Antes de fazer o marge entre na branch master e rode >git pull para atualizar a última versão do código.
+git merge "nome da branch" -> puxa as atualizações para a branch que se deseja unir os códigos.
+
+git pull atualiza a última versão do código.
+git checkout -b "nome da branch" master -> cria uma nova branch com base na branch master.
