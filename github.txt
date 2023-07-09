@@ -3,12 +3,18 @@ Git hub
 -git init inicializa o projeto.
 -git status verifica os arquivos que ainda não foram incluídos no controle de versão.
 -git add . -> adiciona ao controle de versão.
+-git commit - m "comentario"
+-git push -f origin master //Com a tag -f você irá substituir o conteúdo da branch remota          pelo código que você tem no seu repositório local//
+-git push -u origin main // puxa tudo que esta no repositório local para o remoto na branch especificado no caso(main)
+
 * Configuração da conta
 - git config --global user.mail "andersonpleite20222gmail.com"
 - git config --global user.name "andersonpleite"
 
 Definir o link do projeto no github
 git remote add origin https://github.com/andersonpleite/estrutura_de_dados (link do repositório)
+
+git clone https://github.com/andersonpleite/youngprofit.git -> copia um repositório remoto para um local
 
 definir a branch
 git push --set-upstream origin master
@@ -28,3 +34,5 @@ git merge "nome da branch" -> puxa as atualizações para a branch que se deseja
 
 git pull atualiza a última versão do código.
 git checkout -b "nome da branch" master -> cria uma nova branch com base na branch master.
+
+git log -> mostra informações dos últimos commits
